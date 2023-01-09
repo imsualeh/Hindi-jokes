@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to left bottom, lightgreen, lightpink,lightgreen);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.joke-container{
+    background-color: rgba(255,255,255,.3);
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.3);
+    border-radius: 15px;
+    width: 85%;
+    text-align: center;
+    color: darkgreen;
+    
+}
+
+.heading2{
+    font-size: 30px;
+    font-weight: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 2px rgba(0,0,0,.3);
+    letter-spacing: 2px;
+}
+
+.fnjoke{
+    font-size: 25px;
+    font-weight: 500px;
+    margin: 40px;
+}
+
+.fnbtn{
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.6);
+    width: 300px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.fnbtn:hover{
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+    transition: all 300ms ease;
+}
+.btn{
+    background-image: url("share_FILL0_wght400_GRAD0_opsz48.png");
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.6);
+    border-radius: 10px;
+    padding: 5px;
+    height: 40px;
+    position: fixed;
+    margin: 2px;
+}
